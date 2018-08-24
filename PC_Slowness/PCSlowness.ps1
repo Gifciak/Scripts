@@ -102,7 +102,7 @@ Function AWB
 PCClean
 Write-Host "Please wait till script clears AWB" -ForegroundColor "Green"
 
-RunDll32.exe InetCpl.cpl, ClearMyTracksByProcess 4 # Ciasteczka
+RunDll32.exe InetCpl.cpl, ClearMyTracksByProcess 4 # Cookies
 
 REG DELETE HKLM\Software\Microsoft\AppV\Client\PackageGroups\E386098B-7394-449D-9724-A69FD648EAB1
 REG DELETE HKLM\Software\Microsoft\AppV\Client\PackageGroups\526F5866-0F67-469C-B9A2-92AE86005846
